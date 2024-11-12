@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<img class="logo" src="images/cart.png" width="200" height="200" alt="Shopping Cart Image">
+<center>
+    <h1>Shopping Cart</h1>
+    <h3 id="header">The Online Shopping Store</h3>
+<hr id="test"/>
+</center>
+<ul class="menu">
+    <li class="menu"><a href="#">Home</a></li>
+    <li class="menu"><a href="news.html">News</a></li>
+    <li class="menu"><a href="register.html">Contact</a></li>
+    <li class="menu"><a href="About.php">About Us</a></li>
+</ul>
+
+<br>
+<button> <a href="addItems.html">Add New Item</a> </button>
+<br>
+<center>
+    
+<form method ="POST" action="submitaAddItems.php">
+	item id:<br>
+	<input type ="text" name="itemid"  placeholder="enter item id"/><br>
+
+	item name :<br>
+	<input type ="text" name="itemname"  placeholder="enter item name"/><br>
+
+	description:<br>
+	<textarea name="description" placeholder="enter the description" rows=6></textarea><br>
+
+	price:<br>
+		<input type="text" name="price" placeholder="enter Price" /><br>
+
+	qunatity:<br>
+	<input type ="number" name="quantity"  placeholder="enter item code"/><br>
+	<input type="submit" value="save"/>
+
+</form>
+</center>
+<hr id="test"/>
+<center>
+<h3 style="font-weight: bold; font-style: italic;">Created By :Mihiri Samaraweera</h3>
+    <a href="https://courseweb.sliit.lk/"> Visit this Course </a>
+</center>
+</body>
+</html>

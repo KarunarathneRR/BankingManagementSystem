@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <script src="js/myScript.js"></script>
+        <script>
+            alert("News page loaded!");
+            document.write(Date());
+        </script>
+</head>
+<body>
+<img class="logo" src="images/cart.png" width="200" height="200" alt="Shopping Cart Image">
+<center>
+    <h1>Shopping Cart</h1>
+    <h3 id="header">The Online Shopping Store</h3>
+<hr id="test"/>
+</center>
+<ul class="menu">
+    <li class="menu"><a href="index.php">Home</a></li>
+    <li class="menu"><a href="#">News</a></li>
+    <li class="menu"><a href="register.html">Contact</a></li>
+    <li class="menu"><a href="About.php">About Us</a></li>
+</ul>
+<center>
+<div class="newslayout">
+    <button class="bttn1" type="button" id="btn1" onclick="loadData('btn1')">IPhone</button>
+    <button class="bttn1" type="button" id="btn2" onclick="loadData('btn2')">Nokia</button>
+    <button class="bttn1" type="button" id="btn3" onclick="loadData('btn3')">Samsung</button>
+    <button class="bttn1" type="button" id="btn4" onclick="loadData('btn4')">Oppo</button>
+    <button class="bttn1" type="button" id="avg" onclick="priceForInLoop()">Average Price</button>
+    <button class="bttn1" type="button" id="avg" onclick="priceHigher()">Prices higher than 1000</button>
+    <button class="bttn1" type="button" id="avg" onclick="priceLower()">Prices lower than 800</button>
+    
+</div>
+<img id="image1" src="images/mobiles.jpg">
+
+<p class="text1" id="para">Mobile phones, particularly the smartphones that have become our inseparable companions today, are relatively new.However, the history of mobile phones goes back to 1908 when a US Patent was issued in Kentucky for a wireless telephone.Mobile phones were invented as early as the 1940s when engineers working at ATT developed cells for mobile phone base stations.The very first mobile phones were not really mobile phones at all. They were two-way radios that allowed people like taxi drivers and the emergency services to communicate.
+Mobile telephony has a long history that started off with experiments of communications from and to moving vehicle rather then handheld devices.In later years, the main challenges have laid in the development of interoperable standard and coping with the explosive success and ever increasing demand for bandwidth and reliability.</p>
+</center>
+<hr id="test"/>
+<center>
+<h3 style="font-weight: bold; font-style: italic;">Created By : Mihiri Samaraweera</h3>
+<a href="https://courseweb.sliit.lk/"> Visit this Course </a>
+</center>
+</body>
+</html>

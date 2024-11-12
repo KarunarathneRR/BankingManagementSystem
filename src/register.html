@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/formStyles.css">
+    <script src="js/myScript.js"></script>
+</head>
+<body>
+<img class="logo" src="images/cart.png" width="200" height="200" alt="Shopping Cart Image">
+<center>
+    <h1>Shopping Cart</h1>
+    <h3 id="header">The Online Shopping Store</h3>
+<hr id="test"/>
+</center>
+<ul class="menu">
+    <li class="menu"><a href="index.html">Home</a></li>
+    <li class="menu"><a href="news.html">News</a></li>
+    <li class="menu"><a href="#">Contact</a></li>
+    <li class="menu"><a href="https://courseweb.sliit.lk/">About Us</a></li>
+</ul>
+<br>
+<center>
+    <h2>Registration Form</h2>
+</center>
+<form action="submitRegistration.php" method="POST" onsubmit="return checkPassword()">
+    
+    First Name:<br/>
+    <input type="text" name="firstname" placeholder="First Name" required><br/><br/>
+        
+    Last Name:<br/>
+    <input type="text" name="lastname" placeholder="Last Name" required><br/><br/>
+    
+    Gender:<br/>
+    <input type="radio" value="Male" name="gender">Male
+    <input type="radio" value="Female" name="gender" checked>Female<br/><br/>
+        
+    Mobile Number:<br/>
+    <input type="phone" name="mobile" placeholder="0777777777" pattern="[0-9]{10}" required><br/><br/>
+        
+    e-mail:<br/>
+    <input type="email" name="email" placeholder="abc@gmail.com" required><br/><br/>
+        
+    Address:<br/>
+    <textarea name="address" rows="8" cols="50" required></textarea><br/><br/>
+    
+    Birthday:<br/>
+    <input type="date" name="day" required><br/><br/>
+        
+    Password:<br/>
+    <input type="password" id="pwd"  required><br/><br/>
+        
+    Re-Enter Password:<br/>
+    <input type="password" id="cnfrmpwd" required><br/><br/>
+        
+    <br>
+    <input type="checkbox" class="inputStyle" id="checkBox" onclick="enableButton()">Accept Privacy Policy and Terms<br/><br/>
+        
+    <center>
+        <input type="submit" value="Submit" id="submitBtn" disabled>
+    </center>
+    
+    
+</form>
+<br>
+<hr id="test"/>
+<center>
+<h3 style="font-weight: bold; font-style: italic;">Created By :Mihiri Samaraweera</h3>
+    <a href="https://courseweb.sliit.lk/"> Visit this Course </a>
+</center>
+</body>
+</html>

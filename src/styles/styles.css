@@ -1,0 +1,132 @@
+body {
+ background-image: url("../images/back.jpeg");
+ background-repeat:no-repeat;
+ background-size:cover;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3#header{
+     font-weight: bold;
+     font-style: italic;
+     font-size: 32px;
+}
+
+hr#test {
+  border: 2px solid purple;
+}
+
+/* start editing horizontal menu*/
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.menu {
+  float: left;
+}
+
+li a {
+    /* When you have li and a together this will work*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to pink on hover
+When you move the curser to a menu item it will highlighted with pink*/
+li a:hover {
+  background-color: pink;
+}
+/*end of the editing horizontal menu*/
+
+.productData{
+    background-color:white;
+    padding: 3px;
+}
+
+th.col1 {
+  text-align: center;
+}
+
+th.col2 {
+  text-align: left;
+}
+
+div.tbl {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/*another way to add margins*/
+/*
+div.tbl{
+  margin: 15px 10px 10px 10px;
+}
+*/
+/*4th Labsheet*/
+div.newslayout {
+    border: 3px solid purple;
+    margin: 25px 20px 20px 20px;
+}
+.bttn1{
+    margin: 8px 4px 4px 4px;
+    width:20%;
+    height:50px;
+    background-color: pink;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text1{
+    font-size: 16px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+/*4th Labsheet*/
+div.newslayout {
+    border: 3px solid purple;
+    margin: 25px 20px 20px 20px;
+}
+.bttn1{
+    margin: 8px 4px 4px 4px;
+    width:20%;
+    height:50px;
+    background-color: pink;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text1{
+    font-size: 16px;
+    font-family: Georgia, serif;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+}
+
+
